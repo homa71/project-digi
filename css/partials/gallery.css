@@ -1,0 +1,100 @@
+.gallery {
+  width: 100%;
+  height: 420px;
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: center;
+
+  .gallery-center {
+    width: 70%;
+    height: 420px;
+    display: flex;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+
+    .gallery-center-item {
+      width: 25%;
+      height: 420px;
+      border-left: 1px solid #F0F0F1;
+
+      .gallery-center-item-top {
+        width: 100%;
+        height: 20%;
+        padding-right: 15px;
+
+        .gallery-center-item-top-h {
+          font-family: var(--font-family);
+          font-size: 15px;
+          font-weight: ;
+          color: #2b2b2b;
+          padding-top: 13px;
+        }
+        .gallery-center-item-top-text {
+          font-family: var(--font-family);
+          font-size: 10px;
+
+          color: grey;
+          padding-top: 8px;
+        }
+      }
+      .gallery-center-item-middle {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-flow: row wrap;
+        padding: 5px 15px;
+
+        .gallery-center-item-middle-item {
+          width: 50%;
+          height: 50%;
+
+          .gallery-center-item-middle-item-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+
+            .gallery-center-item-middle-item-link-img {
+              width: 100px;
+              height: 100px;
+            }
+          }
+        }
+      }
+      .gallery-center-item-botton {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+
+        .gallery-center-item-botton-link {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 70px;
+          height: 30px;
+          text-decoration: none;
+
+          .gallery-center-item-botton-link-text {
+            display: inline-block;
+            font-family: var(--font-family);
+            font-size: 13px;
+            font-weight: normal;
+            color: #6ae1fc;
+          }
+        }
+      }
+    }
+  }
+}
+.border-less {
+  border-left: none !important;
+}
+.border-left {
+  border-left: 1px solid #F0F0F1;
+}
+.border-botton {
+  border-bottom: 1px solid #F0F0F1;
+}

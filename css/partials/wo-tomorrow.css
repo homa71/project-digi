@@ -1,0 +1,188 @@
+.wo-tomorrow {
+    width: 100%;
+    height: 143px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+  
+    .wo-tomorrow-center {
+      width: 70%;
+      height: 110px;
+      /* background-color: #ECEFEE; */
+      border-radius: 10px;
+      .wo-tomorrow-center-link {
+        width: 100%;
+        height: 110px;
+        /* background-color: #ECEFEE; */
+        border-radius: 10px;
+        text-decoration: none;
+        display: flex;
+        
+        background-image: url(../../images/svg/wo-tomorrow-back-left.svg) , linear-gradient(to left, #F3DFE3, #ECEFEE,#F4EFF0);
+        background-repeat: no-repeat;
+        background-position: left center;
+  
+        .wo-tomorrow-center-link-right {
+          width: 50%;
+          height: 110px;
+          display: flex;
+          
+      
+          .wo-tomorrow-center-link-right-context{
+            width: 50%;
+            height: 100%;
+            
+            .wo-tomorrow-center-link-right-context-svg{
+              display: block;
+              width: 206px;
+              height: 28px;
+              margin: 0 auto;
+              margin-top: 25px;
+            }
+            .wo-tomorrow-center-link-right-context-text{
+        
+              font-family: var(--font-family);
+              font-size: 12px;
+              font-weight: bold;
+              color: #2b2b2b;
+              margin-top: 5px;
+              margin-right: 45px;
+      
+            }
+
+          }
+          .wo-tomorrow-center-link-right-clock{
+            width: 50%;
+            height: 100%;
+          
+            display: flex;
+            align-items:;
+            justify-content: start;
+            
+            column-gap: 5px;
+            .wo-tomorrow-center-link-right-clock-hour,  .wo-tomorrow-center-link-right-clock-minute,      
+            .wo-tomorrow-center-link-right-clock-second {
+              width: 40px;
+              height: 40px;
+              background-color: #FFFFFF;
+              border-radius: 5px;
+              margin-top: 20px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              
+            
+      
+              .wo-tomorrow-center-link-right-clock-number{
+                display: block;
+                font-family: var(--font-number);
+                font-size: 22px;
+                font-weight: bold;
+                color: #2b2b2b;
+            
+              }
+           
+             
+            }
+            .wo-tomorrow-center-link-right-clock-colon{
+              font-family: var(--font-family);
+              font-size: 25px;
+               font-weight: bold;
+               margin-top: 20px;
+            }
+
+          }
+
+  
+        
+        }
+        .wo-tomorrow-center-link-middle{
+          width: 35%;
+          height: inherit;
+      
+          display: flex;
+          column-gap: 1px;
+          .wo-tomorrow-center-link-middle-item{
+              width: 17%;
+              height: inherit;
+              
+              
+              .wo-tomorrow-center-link-middle-item-img{
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  display: block;
+                  margin: 0 auto;
+                  margin-top:30px ;
+                  
+                 
+                  
+              }
+              .wo-tomorrow-center-link-middle-item-div{
+                width: 30px;
+                height: 15px;
+                border-radius: 30px;
+                background-color: crimson;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                bottom:12px ;
+                left: 5px;
+                
+                .wo-tomorrow-center-link-middle-item-div-text{
+                  font-family: var(--font-family);
+                  font-family: var(--font-number);
+                  font-size: 13px;
+                  color: whitesmoke;
+                  font-weight: ;
+                  text-align: center;
+  
+              }
+                
+            }
+              
+             
+              
+          }
+        }
+        .wo-tomorrow-center-link-left{
+          width: 15%;
+          height: inherit;
+          
+          display: flex;
+          align-items: center;
+          
+  
+          
+          .wo-tomorrow-center-link-left-div{
+              width: 118px;
+              height:40px;
+              border-radius: 30px;
+              background-color: white;
+              margin-right:3px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+          }
+          .wo-tomorrow-center-link-left-text{
+              font-family: var(--font-family);
+              font-family: var(--font-number);
+              color:#EF394E;
+              font-size: 13px;
+              font-weight:bold !important;
+  
+          }
+          .wo-tomorrow-center-link-left-arrow{
+              margin-top: 18px;
+        
+            
+          }
+          
+        }
+        
+        }
+      }
+    }
+  

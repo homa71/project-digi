@@ -1,0 +1,146 @@
+.market-wonder {
+  width: 100%;
+  height: 143px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url();
+
+  .market-wonder-center {
+    width: 70%;
+    height: 110px;
+    background-color: #ECEFEE;
+    border-radius: 10px;
+    .market-wonder-center-link {
+      width: 100%;
+      height: 110px;
+      background-color: #ECEFEE;
+      border-radius: 10px;
+      text-decoration: none;
+      display: flex;
+      background-image: url(../../images/svg/market-wonder-bgi.svg.svg);
+      background-repeat: no-repeat;
+      background-position: left center;
+
+      .market-wonder-center-link-right {
+        width: 50%;
+        height: 110px;
+
+        display: flex;
+        align-items: center;
+
+        .market-wonder-center-link-right-img {
+          width: 50px;
+          height: 47px;
+          margin-left: 10px;
+          margin-right: 20px;
+        }
+        .market-wonder-center-link-right-div {
+          width: 100px;
+          height: 30px;
+          border-radius: 15px;
+          background-color: #029a49;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 8px;
+
+          .market-wonder-center-link-right-div-text {
+            font-family: var(--font-family);
+            font-family: var(--font-number);
+            font-size: 17px;
+
+            color: whitesmoke;
+            
+          }
+        }
+      }
+      .market-wonder-center-link-middle{
+        width: 35%;
+        height: inherit;
+    
+        display: flex;
+        column-gap: 1px;
+        .market-wonder-center-link-middle-item{
+            width: 17%;
+            height: inherit;
+            
+            
+            .market-wonder-center-link-middle-item-img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                display: block;
+                margin: 0 auto;
+                margin-top:30px ;
+                
+               
+                
+            }
+            .market-wonder-center-link-middle-item-div{
+              width: 30px;
+              height: 15px;
+              border-radius: 30px;
+              background-color: crimson;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              position: relative;
+              bottom:12px ;
+              left: 5px;
+              
+              .market-wonder-center-link-middle-item-div-text{
+                font-family: var(--font-family);
+                font-family: var(--font-number);
+                font-size: 13px;
+                color: whitesmoke;
+                font-weight: ;
+                text-align: center;
+
+            }
+              
+          }
+            
+           
+            
+        }
+      }
+      .market-wonder-center-link-left{
+        width: 15%;
+        height: inherit;
+        
+        display: flex;
+        align-items: center;
+        
+
+        
+        .market-wonder-center-link-left-div{
+            width: 118px;
+            height:40px;
+            border-radius: 30px;
+            background-color: white;
+            margin-right:3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .market-wonder-center-link-left-text{
+            font-family: var(--font-family);
+            font-family: var(--font-number);
+            color: #029a49;
+            font-size: 13px;
+            font-weight: ;
+
+        }
+        .market-wonder-center-link-left-arrow{
+            margin-top: 18px;
+      
+          
+        }
+        
+      }
+      
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+.club {
+  width: 100%;
+  height: 90px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+
+  .club-center {
+    width: 70%;
+    height: 90px;
+    border-radius: 15px;
+    background-image: url(),
+      linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%),
+      radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+    display: flex;
+    .club-center-right {
+      width: 35%;
+      height: 90px;
+      display: flex;
+      align-items: center;
+
+      .club-center-right-img {
+        margin-right: 20px;
+      }
+    }
+    .club-center-left {
+      width: 65%;
+      height: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 3px;
+      
+      .club-center-left-item {
+        width: 32%;
+        height: 65px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 5px;
+        .club-center-left-item-svg {
+          margin-right:  7px;
+        }
+        .club-center-left-item-h6 {
+          font-family: var(--font-family);
+
+          font-size: 10px;
+        }
+        .club-center-left-item-img {
+          width: 105px;
+          height: 61px;
+        }
+      }
+    }
+  }
+}
+.radius-less {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.radius-unlike {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 8px !important;
+  border-top-left-radius: 8px !important;
+}

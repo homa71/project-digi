@@ -1,0 +1,45 @@
+.dbpicture {
+  width: 100%;
+  height: 264px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+  .dbpicture-center {
+    width: 70%;
+    height: 264px;
+    display: flex;
+    column-gap: 15px;
+
+    .dbpicture-center-right {
+      width: 50%;
+      height: 264px;
+
+      .dbpicture-center-right-link {
+        width: 100%;
+        height: inherit;
+        .dbpicture-center-right-link-img {
+          width: 100%;
+          height: 100%;
+          border-radius: 15px;
+        }
+      }
+    }
+    .dbpicture-center-left {
+      width: 50%;
+      height: 264px;
+
+      .dbpicture-center-left-link {
+        width: 100%;
+        height: inherit;
+
+        .dbpicture-center-left-link-img {
+          width: 100%;
+          height: 100%;
+          border-radius: 15px;
+          object-fit: ;
+        }
+      }
+    }
+  }
+}

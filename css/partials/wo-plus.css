@@ -1,0 +1,165 @@
+.wo-plus {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+  
+    .wo-plus-center {
+      width: 70%;
+      height: 110px;
+      background-color: #EAE3EA;
+      border-radius: 10px;
+      .wo-plus-center-link {
+        width: 100%;
+        height: 110px;
+        background-color: #ECEFEE;
+        border-radius: 10px;
+        text-decoration: none;
+        display: flex;
+        background-image: url(../../images/svg/wo-plus-back-right.svg),url(../../images/svg/wo-plus-back-left.svg);
+        background-repeat: no-repeat;
+        background-position: right center, left center;
+  
+        .wo-plus-center-link-right {
+          width: 50%;
+          height: 110px;
+  
+          display: flex;
+          align-items: center;
+  
+          .wo-plus-center-link-right-svg {
+            width: 461px;
+            height: 83px;
+            
+            margin-right: 20px;
+          }
+        
+        }
+      
+        .wo-plus-center-link-left{
+          width: 50%;
+          height: 110px;
+          padding: 10px 0;
+      
+          
+          
+  .wo-plus-center-link-left-top{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+    
+  
+    column-gap: 10px;
+    .wo-plus-center-link-left-top-svg{
+      width:20px ;
+      height: 20px;
+      
+      margin-right: 230px;
+      
+     
+
+    }
+    .wo-plus-center-link-left-top-text{
+      font-family:var(--font-family);
+      font-size: 17px;
+      font-weight: bold;
+      color: #B543A9;
+
+    }
+
+  }
+  .wo-plus-center-link-left-bottom{
+    width: 100%;
+    height: 60%;
+    display: flex;
+  
+  
+    
+    .wo-plus-center-link-left-bottom-clock{
+      width: 70%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      column-gap: 15px;
+      
+      .wo-plus-center-link-left-bottom-clock-hour,  .wo-plus-center-link-left-bottom-clock-minute,      
+      .wo-plus-center-link-left-bottom-clock-second{
+        width: 50px;
+        height: 50px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+      
+
+        .wo-plus-center-link-left-bottom-clock-number{
+          display: block;
+          width: 100%;
+          
+          font-family: var(--font-number);
+          font-size: 22px;
+          font-weight: bold;
+          color: #B543A9;
+        padding: 0 15px;
+      
+          
+    
+          
+
+
+        }
+        .wo-plus-center-link-left-bottom-clock-text{
+          display: block;
+          width: 100%;
+          
+          font-family: var(--font-family);
+          font-size: 9px;
+          color: #B543A9;
+          padding: 0 15px;
+          margin-bottom: 5px;
+        
+          
+          
+         
+        }
+      }
+
+    }
+    .wo-plus-center-link-left-bottom-context{
+      width: 30%;
+      height: 100%;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      column-gap: 5px;
+    
+
+      .wo-plus-center-link-left-bottom-context-text{
+        font-family:var(--font-family);
+        font-size: 14px;
+        font-weight: bold;
+        color: #B543A9;
+        margin-right: 20px;
+      
+  
+      }
+    
+
+    }
+  
+
+
+  }
+          
+          
+        
+      }
+    }
+  }
+}
+   
+  
