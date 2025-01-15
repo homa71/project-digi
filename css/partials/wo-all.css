@@ -29,6 +29,9 @@
             .wo-all-center-content-right{
                 width: 20%;
                 height: 600px;
+                  position: sticky;
+                right: 0 ;
+                top: 170px;
                 
                 .wo-all-center-content-right-filter{
                 width: 100%;
@@ -36,9 +39,7 @@
                 border: 1px solid #dddddd;
                 border-radius: 8px;
                 padding:  0  10px;
-                position: sticky;
-                right: 0 ;
-                top: 170px;
+               
         
                 
                 .wo-all-center-content-right-filter-top{
